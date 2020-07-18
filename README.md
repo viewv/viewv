@@ -1,16 +1,16 @@
-### Hi there 👋
+### Hi there 👋 I'm James 🤓 
+![](https://img.shields.io/badge/Hey!-friend～-green)   
 
-<!--
-**viewv/viewv** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am a computer science student. 
 
-Here are some ideas to get you started:
+一个混的有些惨的大学生。目前希望能考上个研究生。
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Find me
+
+- Telegram: [@C_Monitor](https://t.me/C_Monitor)
+- Twitter: [@ViewvZxn](https://twitter.com/ViewvZxn)
+- E-mail: zxnnet@gmail.com
+
+Also I have a [blog](https://tech.viewv.top) , may be you can find some fun information from my blog!
+
+
