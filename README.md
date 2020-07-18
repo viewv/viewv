@@ -3,7 +3,7 @@
 
 I am a computer science student.   
 
-一个混的有些惨的大学生。目前希望能考上个研究生。
+一个目前混的有些惨的大学生。
 
 ### Find me
 
