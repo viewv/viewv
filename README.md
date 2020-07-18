@@ -1,5 +1,5 @@
 ### Hi there 👋 I'm James 🤓 
-![](https://img.shields.io/badge/Hey!-friend～-green)   
+![You find something!](https://img.shields.io/badge/Hey!-friend～-green)   
 
 I am a computer science student. 
 
