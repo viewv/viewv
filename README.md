@@ -10,6 +10,9 @@ I am a computer science student.
 - Telegram: [@C_Monitor](https://t.me/C_Monitor)
 - E-mail: zxnnet@gmail.com
 
+### Language and Tools:
+
+
 Also I have a [blog](https://tech.viewv.top) , may be you can find some fun information from my blog!
 
 
