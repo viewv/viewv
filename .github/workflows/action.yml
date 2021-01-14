@@ -201,21 +201,6 @@ jobs:
           config_timezone: Asia/Shanghai
           config_padding: 10%
 
-      # This is used to illustrate special features with the use of "debug_flags"
-      # - "--cakeday" will act as if it's your account birthday
-      # - "--hireable" will act as if "Available for hire" is enabled on your account
-      # - "--halloween" will act as if it was halloween, changing the colors of contributions calendar and isocalendar
-      - name: Header (additional features)
-        uses: lowlighter/metrics@master
-        with:
-          filename: metrics.header.svg
-          token: ${{ secrets.METRICS_BOT_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          base: "header"
-          debug_flags: --cakeday --hireable --halloween
-          plugins_errors_fatal: yes
-          config_timezone: Asia/Shanghai
-
       # This is used to illustrate plugin errors :
       # The "METRICS_TOKEN" does not contains the "public_repo" scope, which is required for "plugin_projects"
       # It will display an "Insufficient token rights" error
