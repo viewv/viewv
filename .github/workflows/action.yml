@@ -214,19 +214,3 @@ jobs:
           plugin_projects: yes
           plugins_errors_fatal: no
           config_timezone: Asia/Shanghai
-
-      # Display followers and followed users
-      # Note that :
-      # - To respect privacy of users (as their faces could be displayed on every fork of this repository and on lowlighter/metrics),
-      #   identicons option is used to hide their avatar, but you probably want to remove it if you use this plugin
-      - name: People plugin (followers)
-        uses: lowlighter/metrics@master
-        with:
-          filename: metrics.plugin.people.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          base: ""
-          plugin_people: yes
-          plugin_people_identicons: yes
-          plugins_errors_fatal: yes
-          config_timezone: Asia/Shanghai
