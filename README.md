@@ -5,7 +5,12 @@ I am a computer science student.
 
 一个目前混的有些惨的大学生。  
 
-![Metrics](https://github.com/viewv/viewv/blob/master/github-metrics.svg)
+<img alt="m" align="left" width="400px" src="https://github.com/viewv/viewv/blob/master/metrics.plugin.music.svg">
+<img alt="m" align="right" width="400px" src="https://github.com/viewv/viewv/blob/master/metrics.plugin.activity.svg">
+<img alt="m" align="left" width="400px" src="https://github.com/viewv/viewv/blob/master/metrics.additional.svg">
+<img alt="m" align="right" width="400px" src="https://github.com/viewv/viewv/blob/master/metrics.plugin.isocalendar.fullyear.svg">
+<img alt="m" align="left" width="400px" src="https://github.com/viewv/viewv/blob/master/metrics.plugin.followup.svg">
+<img alt="m" align="right" width="400px" src="https://github.com/viewv/viewv/blob/master/metrics.plugin.stars.svg">  
 
 ### Find me
 
