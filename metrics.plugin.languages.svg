@@ -476,6 +476,13 @@
     margin: 0 4px;
   }
 
+  .activity .issue {
+    flex-grow: 1;
+    width: 0%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
   .activity .code {
     background-color: #7777771F;
     padding: 1px 5px;
@@ -486,17 +493,22 @@
     margin: 0 4px -3px;
   }
 
-  .activity .bold {
+  .activity .bold, .activity .user {
     font-weight: 600;
     margin: 0 4px;
   }
 
-  .activity .details {
+  .activity .details, .activity .timestamp {
     padding-left: 42px;
     display: flex;
     flex-direction: column;
     font-size: 13px;
     color: #666666;
+  }
+
+  .activity .timestamp {
+    font-size: 10px;
+    margin-top: 4px;
   }
 
   .activity .details &gt; div {
@@ -640,6 +652,13 @@
     }
   }
 
+/* Twemoji */
+  .twemoji {
+    height: 1em;
+    width: 1em;
+    margin-bottom: -.125em;
+  }
+
 /* Cake day */
   .cakeday, .cakeday svg {
     animation: animation-rainbow 1.2s;
@@ -719,21 +738,21 @@
         </mask>
         <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
         
-          <rect mask="url(#languages-bar)" x="0" y="0" width="303.8002248354785" height="8" fill="#DA5B0B"/>
+          <rect mask="url(#languages-bar)" x="0" y="0" width="311.106373916579" height="8" fill="#DA5B0B"/>
         
-          <rect mask="url(#languages-bar)" x="303.8002248354785" y="0" width="61.04335069191016" height="8" fill="#3572A5"/>
+          <rect mask="url(#languages-bar)" x="311.106373916579" y="0" width="62.511393781103116" height="8" fill="#3572A5"/>
         
-          <rect mask="url(#languages-bar)" x="364.8435755273887" y="0" width="58.68644305611134" height="8" fill="#f1e05a"/>
+          <rect mask="url(#languages-bar)" x="373.6177676976821" y="0" width="55.47072047954893" height="8" fill="#f1e05a"/>
         
-          <rect mask="url(#languages-bar)" x="423.5300185835" y="0" width="23.680611214974935" height="8" fill="#b07219"/>
+          <rect mask="url(#languages-bar)" x="429.08848817723106" y="0" width="24.250110714068068" height="8" fill="#b07219"/>
         
-          <rect mask="url(#languages-bar)" x="447.21062979847494" y="0" width="5.531458020184669" height="8" fill="#c6538c"/>
+          <rect mask="url(#languages-bar)" x="453.3385988912991" y="0" width="4.340191493665795" height="8" fill="#555555"/>
         
-          <rect mask="url(#languages-bar)" x="452.7420878186596" y="0" width="5.1933792163000385" height="8" fill="#555555"/>
+          <rect mask="url(#languages-bar)" x="457.67879038496494" y="0" width="1.1308236899968758" height="8" fill="#00B4AB"/>
         
-          <rect mask="url(#languages-bar)" x="457.93546703495963" y="0" width="1.1042669648499563" height="8" fill="#00B4AB"/>
+          <rect mask="url(#languages-bar)" x="458.8096140749618" y="0" width="0.7853504585315975" height="8" fill="#701516"/>
         
-          <rect mask="url(#languages-bar)" x="459.0397339998095" y="0" width="0.9602660001903797" height="8" fill="#701516"/>
+          <rect mask="url(#languages-bar)" x="459.59496453349334" y="0" width="0.40503546650661076" height="8" fill="#f34b7d"/>
         
       </svg>
       
@@ -760,11 +779,6 @@
             </div>
           
             <div class="field center no-wrap language">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="#c6538c" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/></svg>
-              SCSS
-            </div>
-          
-            <div class="field center no-wrap language">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="#555555" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/></svg>
               C
             </div>
@@ -777,6 +791,11 @@
             <div class="field center no-wrap language">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="#701516" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/></svg>
               Ruby
+            </div>
+          
+            <div class="field center no-wrap language">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="#f34b7d" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/></svg>
+              C++
             </div>
           
         </div>
