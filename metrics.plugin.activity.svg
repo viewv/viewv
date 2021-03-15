@@ -897,6 +897,9 @@
     font-size: 10px;
     padding: 0 5px;
   }
+  .achievement .gauge-base, .achievement .gauge-arc {
+    stroke-width: 6;
+  }
 
 /* Fade animation */
   .af {
@@ -1198,6 +1201,7 @@ Bump bcpg-jdk15on from 1.66 to 1.68</div>
 
       
         
+
       
 
       
