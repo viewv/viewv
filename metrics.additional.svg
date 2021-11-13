@@ -278,6 +278,12 @@
 /* Follow-up */
   .followup.legend {
     font-size: 12px;
+    flex-wrap: wrap;
+  }
+  .followup.legend .field {
+    width: 46%;
+    justify-content: flex-start;
+    margin-left: 8px;
   }
   .followup.legend svg {
     margin: 0 3px;
@@ -1634,15 +1640,9 @@
                             <div class="entry">
                 <span class="value">28</span>
                 <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                30
+                31
                 
                   <div class="bottom">Oct.</div>
-                
-              </div>
-                            <div class="entry">
-                <span class="value"></span>
-                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                31
                 
               </div>
                             <div class="entry">
@@ -1719,6 +1719,12 @@
                 12
                 
               </div>
+                            <div class="entry">
+                <span class="value"></span>
+                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                13
+                
+              </div>
                         </div>
                     </section>
                     <section class="column chart">
@@ -1727,15 +1733,9 @@
                             <div class="entry">
                 <span class="value"></span>
                 <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
-                30
+                31
                 
                 <div class="bottom">Oct.</div>
-                
-              </div>
-                            <div class="entry">
-                <span class="value"></span>
-                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
-                31
                 
               </div>
                             <div class="entry">
@@ -1812,6 +1812,12 @@
                 12
                 
               </div>
+                            <div class="entry">
+                <span class="value"></span>
+                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                13
+                
+              </div>
                         </div>
                     </section>
                 </div>
@@ -1831,7 +1837,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>PAGalaxyLab/YAHFA</span>
-                                        <span>starred 1 day ago</span>
+                                        <span>starred 2 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">
@@ -1873,7 +1879,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>alphaSeclab/awesome-reverse-engineering</span>
-                                        <span>starred 1 day ago</span>
+                                        <span>starred 2 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">
@@ -1907,7 +1913,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>PAGalaxyLab/VirtualHook</span>
-                                        <span>starred 1 day ago</span>
+                                        <span>starred 2 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">
