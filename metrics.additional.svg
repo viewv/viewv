@@ -107,13 +107,8 @@
                             <div class="entry">
                                 <span class="value">36</span>
                                 <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                17
-                                <div class="bottom">July</div>
-                            </div>
-                            <div class="entry">
-                                <span class="value"></span>
-                                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 18
+                                <div class="bottom">July</div>
                             </div>
                             <div class="entry">
                                 <span class="value"></span>
@@ -174,6 +169,11 @@
                                 <span class="value"></span>
                                 <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 30
+                            </div>
+                            <div class="entry">
+                                <span class="value"></span>
+                                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                31
                             </div>
                         </div>
                     </section>
@@ -183,13 +183,8 @@
                             <div class="entry">
                                 <span class="value"></span>
                                 <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
-                                17
-                                <div class="bottom">July</div>
-                            </div>
-                            <div class="entry">
-                                <span class="value"></span>
-                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 18
+                                <div class="bottom">July</div>
                             </div>
                             <div class="entry">
                                 <span class="value"></span>
@@ -250,6 +245,11 @@
                                 <span class="value"></span>
                                 <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 30
+                            </div>
+                            <div class="entry">
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                                31
                             </div>
                         </div>
                     </section>
@@ -272,7 +272,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>crypto101/book</span>
-                                        <span>starred 4 days ago</span>
+                                        <span>starred 5 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Crypto 101, the introductory book on cryptography.</div>
@@ -325,7 +325,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>stg-tud/python-crypto-misuses-study-results</span>
-                                        <span>starred 4 days ago</span>
+                                        <span>starred 5 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Study results and scripts to obtain the results for our paper "Python Crypto Misuses in the Wild" [@akwick @gh0st42 @Breitfelder @miramezini]</div>
@@ -378,7 +378,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>stg-tud/licma</span>
-                                        <span>starred 4 days ago</span>
+                                        <span>starred 5 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">LICMA: Language Independent Crypto-misuse Analysis with a Java and Python analysis component</div>
